@@ -1,0 +1,96 @@
+/********* notas da aula de 18/07/2022, aula 10 
+ * no arquivo CreateCouseServer.ts deifnimos as variáveis
+ *  -----------------------------------------------------
+ *  name     - > string 
+ *  duration - > number
+ *  educator - > string
+ *  -----------------------------------------------------
+ *  stop in 55:23 of class in date 18/07/2022
+ */
+
+/* diferenças entre JavaScript e TypeScript */
+----------------------------------------------
+/* TypeScript */
+
+class user {
+	name: string;
+	lastname: string;
+	username: string;
+	documentnum: string;
+}
+
+const user: User = {
+	name: 'Leandro'
+	lastname: 'M Silva'
+	username: 'leo'
+	documentnum: '384.773.786-26'
+}
+
+----------------------------------------------
+ /* JavaScript code */
+
+const user = {
+	name: 'Leandro',
+	lastname: 'M Silva',
+	username: 'leo',
+	document: '576.683.983-45'
+}
+
+user.document = 46536474837;
+---------------------------------------------
+
+/* instructuons install packages managers */
+
+// install YARN
+npm install --global yarn
+
+// start application YARN
+yarn init -y
+
+// addeding TYPESCRIPT
+yarn add typescript -D
+
+// initialising TAPYSCRIPT
+yarn tsc --init 
+
+// addeding framework EXPRESS
+yarn add express
+
+// addeding o @TYPES/EXPRESS 
+yarn add @types/express -D
+
+// addeding NODEMON
+yarn add nodemon
+
+// addeding TS-NODE-DEV
+yarn add ts-node-dev -D
+
+// execution file in TYPESCRIPT
+yarn ts-node-dev path/filename.ts 
+
+// install package ESLINT
+yarn add eslint -D
+
+// initialising ESLINT
+yarn eslint --init      |      npm init @eslint/config
+
+> To check syntax, find problems, and enforce code style
+> JavaScript modules (import/export)
+> None of these
+√ Does your project use TypeScript? · No / Yes*
+√ Node
+> Use a popular style guide
+> Airbnb: https://github.com/airbnb/javascript
+> JSON
+? Would you like to install them now? » No* / Yes
+
+---------------------------------------------- demais packages a serem instados no projeto ----------------------------------------------------
+yarn add @typescript-eslint/eslint-plugin@latest eslint-config-airbnb-base@latest eslint-plugin-import@^2.25.2 @typescript-eslint/parser@latest
+------------------------------------------------------------------------------------------------------------------------------------------------
+@typescript-eslint/eslint-plugin@latest eslint-config-airbnb-base@latest eslint@^7.32.0 || ^8.2.0 eslint-plugin-import@^2.25.2 @typescript-eslint/parser@latest
+@typescript-eslint/eslint-plugin@latest eslint-config-airbnb-base@latest eslint@^7.32.0 || ^8.2.0 eslint-plugin-import@^2.25.2 @typescript-eslint/parser@latest
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+yarn add -D eslint-plugin-import-helpers eslint-import-resolver-typescript
+
+yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
+
